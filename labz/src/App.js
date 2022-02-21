@@ -1,9 +1,15 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavbarComp from './components/NavbarComp';
 
 function App() {
   
-  return <p>helllo</p>
-  
+  return (
+    <div>
+        <NavbarComp/>
+        <p>hello</p>
+    
+    </div>
+  )
 
 
     
